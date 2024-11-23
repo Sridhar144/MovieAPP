@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api/movies";
+const API_BASE_URL = "https://moviesmern.onrender.com/api/movies";
 
 export const fetchAllMovies = () => axios.get(`${API_BASE_URL}/all`);
 export const fetchMovieDetails = (id) => axios.get(`${API_BASE_URL}/${id}`);
